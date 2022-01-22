@@ -4,6 +4,7 @@ import TopMenu from './components/TopMenu';
 import Header from './components/Header';
 import AmazeNFT from './components/AmazeNFT';
 import CollectionOver from './components/CollectionOver';
+import CollectionNFT from './components/CollectionNFT';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
         </div>
         <div className='item'>
         <CollectionOver/>
+        </div>
+        <div className='item'>
+        <CollectionNFT/>
         </div>
         <div className='item'>
         <Footer/>

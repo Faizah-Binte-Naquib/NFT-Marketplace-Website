@@ -62,3 +62,33 @@ export const top_collection=[
     }
 ]
 
+export const featured_collection=[
+        {
+            paintings:['./images/paintings/painting4.jpg',
+            './images/paintings/painting_icon1.jpg',
+            './images/paintings/painting_icon2.jpg',
+            './images/paintings/painting_icon3.jpg'],
+            profile_icon:"./images/arkhan17.png",
+            name: "Arkhan",
+            total_items:"54",
+        },
+        {
+            paintings:['./images/paintings/painting4.jpg',
+            './images/paintings/painting_icon1.jpg',
+            './images/paintings/painting_icon2.jpg',
+            './images/paintings/painting_icon3.jpg'],
+            profile_icon:"./images/arkhan17.png",
+            name: "Arkhan",
+            total_items:"54",
+        },
+        {
+            paintings:['./images/paintings/painting4.jpg',
+            './images/paintings/painting_icon1.jpg',
+            './images/paintings/painting_icon2.jpg',
+            './images/paintings/painting_icon3.jpg'],
+            profile_icon:"./images/arkhan17.png",
+            name: "Arkhan",
+            total_items:"54",
+        }
+]
+
