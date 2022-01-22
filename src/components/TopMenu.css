@@ -1,0 +1,156 @@
+.nav-container{
+    min-height: 78px;
+    margin-top: 31px;
+    padding-left: 3.5%;
+}
+
+.wrapper{
+    max-width: 1446px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+
+    list-style: none;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+
+    letter-spacing: 0.04em;
+
+    color: #000000;
+    text-shadow: 1px 5px 6px #0000002f;
+}
+
+.line{
+    width: 47px;
+    height: 0px;    
+    border: 1px solid #F4F4F4;
+    transform: rotate(90deg);
+}
+
+.logo{
+    font-family: Integral CF, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+
+    color: #3D00B7;
+    text-shadow: 1px 5px 6px #00000028;
+}
+
+
+.nav-search input{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+/* css for the search icon*/
+.nav-search img{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 2px;
+    margin-left: -37px;
+}
+
+
+
+/* css for upload button*/
+.nav-buttons .button_1{
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+align-items: center;
+padding: 18px 40px;
+
+
+width: 131px;
+height: 50px;
+
+
+background: #3D00B7;
+color: white;
+border-radius: 60px;
+
+
+font-family: DM Sans, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 100%;
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+}
+
+
+/* css for connect wallet button*/
+.nav-buttons .button_2{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    align-items: center;
+    padding: 18px 22px;
+    
+    width: 166px;
+    height: 50px;
+
+    
+    border: 2px solid #3D00B7;
+    color: #3D00B7;
+    box-sizing: border-box;
+    border-radius: 60px;
+
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+
+    letter-spacing: 0.04em;
+
+    color: #3D00B7;
+    margin-left: 10px;
+    
+    }
+
+    .nav-end-line{
+
+    width: 100%;
+    height: 0px;
+    left: -6px;
+    top: 109px;
+    margin: 0 auto;
+
+    border: 1px solid #EFEFEF;
+    }
+
+
+    @media (max-width: 1000px) {
+        nav {
+          flex-direction: column;
+          justify-content: space-around;
+        }
+      }

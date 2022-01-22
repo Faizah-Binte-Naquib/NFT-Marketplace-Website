@@ -1,0 +1,74 @@
+.first-section-container .painting{
+max-width: 400px;
+min-height: 424px;
+
+border-radius: 24px;
+}
+
+.first-section-container .painting:hover{
+    box-shadow: 2px 2px 2px grey;
+}
+
+
+
+/* section with the text underneath image*/
+.first-section-container .details{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 58px;
+    margin-top: 10px;
+}
+
+
+.first-section-container .details .profile-icon{
+    width: 13%;
+    height: 48px;
+}
+
+
+
+.first-section-container .name-amount{
+    width: 50%;
+    
+}
+
+
+.first-section-container .bid{
+    width: 30%;
+    
+}
+
+.first-section-container .name-amount .name{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    
+    
+    color: #000000;
+}
+
+.first-section-container .bid .bid-amount{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #3A3A3A;
+}
+
+.first-section-container .bid .label{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #3A3A3A;
+}
+
+/* text-underneath-image ends here*/

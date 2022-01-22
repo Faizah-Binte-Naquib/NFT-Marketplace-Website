@@ -1,0 +1,81 @@
+.amaze-container{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 728px;
+
+    background: rgba(217, 224, 236, 0.2);
+    backdrop-filter: blur(50px);
+    padding-top:10%;
+    padding-bottom:10%;
+    
+}
+
+
+.amaze-container .wrapper{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+
+.item1{
+    float:left;
+    width: 398px;
+    height: 68px;
+    font-family: Integral CF,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+/*css for the second and third element starts here*/
+
+ul{
+    list-style: none;
+}
+
+
+.item2 .label{
+    width: 300px;
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+
+
+
+    color: #000000;
+
+}
+
+.item2 .details{
+    width: 249px;
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+  
+
+
+    color: #696969;
+    margin-left: 14%;
+
+}
+/*css for the second and third element ends here*/
+
+@media (max-width: 1000px) {
+    .amaze-container .wrapper{
+        flex-direction: column;     
+    }
+  }

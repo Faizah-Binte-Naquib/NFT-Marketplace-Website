@@ -1,0 +1,110 @@
+.second-section-container{
+    min-height:540px;
+}
+
+.second-section-container .wrapper{
+    width: 334px;
+    height: 147px;
+    padding: 2px;
+}
+
+
+.second-section-container .item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+
+/*left section image*/
+.second-section-container .image{
+min-width: 147px;
+height: 147px;
+left: 573px;
+top: 1188px;
+
+border-radius: 12px;
+}
+
+
+.second-section-container .image:hover{
+    box-shadow: 2px 2px 2px grey;
+}
+/*left section image ends here*/
+
+
+/*right section*/
+.second-section-container .content{
+    display: flex;
+    flex-direction: column;
+    min-width: 234px;
+    margin-left: 10px;
+}
+
+
+.second-section-container .name{
+    margin-left: 5px;
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    
+    color: #000000;
+    }
+
+
+    .second-section-container .item .details{
+        display: flex;
+        align-items: center;
+        margin: 10px ;
+    }
+
+    .second-section-container .details button{
+
+        width: 43.33%;
+        height: 32px;
+
+        border: 1px solid #00AC4F;
+        color: #00AC4F;
+        box-sizing: border-box;
+        border-radius: 6px;
+        background: #3d00b700;
+        margin-right: 5px;
+        }
+
+
+    .second-section-container button img{
+      margin-bottom: 4px;
+    }
+
+    .second-section-container button{
+    
+        width: 120px;
+        height: 45px;
+        padding: 5px;
+ 
+        
+        background: #3d00b700;
+        color: #3D00B7;
+        border-radius: 50px;
+        border-color:#3D00B7 ;
+
+
+        font-family: Averta Demo PE Cutted Demo,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: 5px;
+        }
+
+
+        .second-section-container button:hover{
+            background: #3D00B7;
+            color: white;
+        }
+
+
+    /*right section ends here*/

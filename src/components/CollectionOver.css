@@ -1,0 +1,28 @@
+.collection-container .collection-content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 5% ;
+}
+
+
+
+/* assigning three equal portions for the three components*/
+.collection-container .first-section{
+  width: 33.33%;
+}
+.collection-container .second-section{
+  width: 33.33%;
+}
+
+
+.collection-container .third-section{
+  width: 33.33%;
+}
+
+
+@media (max-width: 1000px) {
+    .collection-container .collection-content {
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,161 @@
+footer .main-body{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    min-height: 353px;
+    border-bottom:2px solid #F4F4F4;;
+}
+
+.nfters-content{
+    max-width: 333px;
+    min-height: 190px;
+}
+
+
+.nfters-content .title{
+    font-family: Integral CF,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 5px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.nfters-content .details{
+    font-family: Averta Demo PE Cutted Demo,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 5px;
+    /* or 22px */
+    
+    
+    color: #565656;
+}
+
+.nfters-content .icons{
+    padding:2px;
+}
+
+.nfters-content .icons img{
+    padding:5px;
+}
+
+.market-place .title{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+    color: #000000;
+}
+
+.market-place ul{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+
+
+
+    color: #3D3D3D;
+}
+
+.footer-container .loop{
+    max-width: 364px;
+    min-height: 197.79px;
+}
+
+.footer-container .loop .title{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+
+.footer-container .loop .details{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+
+
+    color: #363639;
+    margin-bottom: 20px;
+}
+
+.footer-container .search{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container .search input{
+    background: #FFFFFF;
+    border: 2px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 45.595px;
+    width: 364px;
+    height: 60.79px;
+    padding-left: 20px;
+}
+
+.footer-container .search button{
+    width: 149.79px;
+    height: 46.4px;
+
+    background: #2639ED;
+    border-radius: 45.595px;
+    margin-left: -160px;
+
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.1587px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    letter-spacing: 0.065em;
+    
+    color: #FFFFFF;
+}
+
+.copy-right{
+    text-align: center;
+
+    font-family: Averta Demo PE Cutted Demo,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+
+
+    color: #A4A4A4;
+    padding: 30px;
+}
+
+
+@media (max-width: 2000px) {
+    footer .main-body {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }

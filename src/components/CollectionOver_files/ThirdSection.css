@@ -1,0 +1,168 @@
+.third-section-container{
+    padding-left: 20%;
+}
+
+.third-section-container .wrapper{
+    border-left: 1px solid #ECECEC;
+    padding-left: 8%;
+}
+
+/*top portion css*/
+
+.third-section-container .title{
+    
+    font-family: Integral CF,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    
+    
+    color: #000000;
+    margin: 10px;
+    min-width: 274px;
+    }
+    
+    .third-section-container .days{
+        min-width: 97px;
+        font-family: DM Sans,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    
+        color: #3D00B7;
+        margin: 10px;
+    }
+/*top portion css ends*/
+
+
+/*each row css*/
+
+.third-section-container .items{
+    width: 313px;
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.third-section-container .items:hover{
+ opacity: 0.8;
+ cursor: pointer;
+}
+
+.third-section-container .serial{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 103%;
+    /* identical to box height, or 25px */
+
+    text-align: center;
+    letter-spacing: -0.025em;
+
+    color: #000000;
+    margin-top: 12px;
+}
+
+
+.third-section-container .painting_icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 5px;
+    position:relative; 
+    z-index:0;
+}
+
+
+/* if there is or not a tick mark*/
+
+.third-section-container .tick{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 1;
+    margin-right: -100px;
+    margin-left: 40px;
+
+}
+
+.third-section-container .no-tick{
+   visibility: hidden;
+   margin-left: -100px;
+
+}
+
+
+/* if there is or not a tick mark ends*/
+
+
+.third-section-container .details .name{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 103%;
+
+    letter-spacing: -0.025em;
+
+    color: #000000;
+}
+
+.third-section-container .details .amount{
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+    letter-spacing: -0.025em;
+    
+    color: #636363;
+}
+
+.third-section-container .details .amount img{
+margin-right: 5px;
+}
+
+
+/* if the given percent is red or green*/
+.third-section-container .percent-green{
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 103%;
+    
+    text-align: right;
+    letter-spacing: -0.025em;
+    
+    color: #14C8B0;
+}
+
+
+.third-section-container .percent-red{
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 103%;
+    
+    text-align: right;
+    letter-spacing: -0.025em;
+    
+    color: #FF002E;
+}
+
+/* if the given percent is red or green ends*/
+
+
+.third-section-container .border{
+    width: 325px;
+    height: 0px;
+    border: 1px solid #F0F0F0;
+}
+
+/*each row css ends*/
