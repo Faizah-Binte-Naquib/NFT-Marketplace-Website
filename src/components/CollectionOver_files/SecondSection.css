@@ -30,6 +30,7 @@ border-radius: 12px;
 
 .second-section-container .image:hover{
     box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
 }
 /*left section image ends here*/
 
@@ -54,6 +55,11 @@ border-radius: 12px;
     color: #000000;
     }
 
+.second-section-container .name:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
     .second-section-container .item .details{
         display: flex;
@@ -73,6 +79,10 @@ border-radius: 12px;
         background: #3d00b700;
         margin-right: 5px;
         }
+
+    .second-section-container .details button:hover{
+        background-color: #00AC4F;
+    }
 
 
     .second-section-container button img{

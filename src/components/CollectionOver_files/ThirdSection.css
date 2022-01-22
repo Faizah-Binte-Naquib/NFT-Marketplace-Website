@@ -47,9 +47,9 @@
     margin: 20px;
 }
 
-.third-section-container .items:hover{
- opacity: 0.8;
- cursor: pointer;
+.third-section-container .bound-item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .third-section-container .serial{

@@ -102,6 +102,11 @@ footer .main-body{
     margin-bottom: 20px;
 }
 
+.footer-container .icons img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
 .footer-container .search{
     display: flex;
     align-items: center;
@@ -130,7 +135,6 @@ footer .main-body{
     font-weight: normal;
     font-size: 12.1587px;
     line-height: 16px;
-    /* identical to box height */
     
     letter-spacing: 0.065em;
     
@@ -145,7 +149,6 @@ footer .main-body{
     font-weight: normal;
     font-size: 14px;
     line-height: 160%;
-    /* or 22px */
 
 
     color: #A4A4A4;
@@ -153,7 +156,7 @@ footer .main-body{
 }
 
 
-@media (max-width: 2000px) {
+@media (max-width: 1000px) {
     footer .main-body {
       flex-direction: column;
       justify-content: space-between;

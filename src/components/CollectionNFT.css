@@ -47,6 +47,11 @@
     border-radius: 11.0008px;
 }
 
+.upper-image-section .main-painting img:hover{
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+
 .upper-image-section .list-of-paintings{
     display: flex;
     flex-direction: column;
@@ -60,6 +65,11 @@
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 12px;
+}
+
+.upper-image-section .list-of-paintings img:hover{
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
 }
 
 
@@ -81,6 +91,11 @@
     min-width: 379px;
 }
 
+.lower-detail-section .information:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .information .profile{
     width: 60%;
     font-family: DM Sans,sans-serif;
@@ -91,6 +106,8 @@
     
     color: #000000;
 }
+
+
 
 
 .information .profile img{
@@ -120,6 +137,11 @@
     color: #2639ED;
     
 
+}
+
+.information button:hover{
+    background-color: #2639ED;
+    color: white;
 }
 
 @media (max-width: 1000px) {
